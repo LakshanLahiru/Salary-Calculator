@@ -1,0 +1,136 @@
+.box{
+    display: flex;
+    width: 100%;
+}
+
+.container{
+    width:680px ;
+    min-height: 616px;
+    margin-top: 142px;
+    margin-bottom: 142px;
+    margin-left: 128px;
+    border-radius: 8px;
+    border: 1px;
+    
+    background-color: #fafafa;
+    border-color: #e0e0e0;
+    padding: 0 24px 10px 24px;
+}
+.container h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.022px;
+    text-align: left;
+    padding-top: 24px;
+}
+
+ .body-large-semibold {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    text-align: left;
+}
+.basic{
+    width: 356px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-color: #e0e0e0;
+
+}
+.body-small{
+    
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        
+        color: #757575;
+      
+}
+.form input[type="text"] {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+ .button-text {
+        margin-top:5px ;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #0052EA;  
+        background-color: #fafafa;
+        border: none;
+        padding: 8px 0;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+      
+}
+.earning-row {
+    display: flex;
+    margin-top: 10px;
+  }
+.title-input{
+    margin: 5px 5px 0 0;
+    width: 212px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    padding: 12px 15px;
+    gap: 8px;
+    background-color: #FFFFFF;
+}
+.amount-input{
+    margin-top: 5px;
+    width: 136px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    padding: 12px 15px;
+    gap: 8px;
+    background-color: #FFFFFF;   
+}
+.delete{
+    
+        width: 32px;
+        height: 32px;
+        background-color: #EFEFEF;
+        border-radius: 50%;
+        border: none;
+        margin-left: 5px;
+        cursor: pointer;
+     
+}
+.check{
+   margin-left: 8px;
+}
+
+
+@media (max-width: 1145px) {
+    .box {
+        flex-direction: column;
+        min-width: 680px; /* Change layout to vertical */
+    }
+    .container{
+        margin:auto;
+        
+        margin: 20px 10px 0 10px;
+
+    }   
+
+    .container3 {
+        margin-left: 0;
+        margin-top: 0px;
+        /* margin:auto; */
+    }
+}
